@@ -5,7 +5,7 @@
 @prefix pm: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> .
 
 tc:CQ5.ttl a owlunit:CompetencyQuestionVerification ;
- 	owlunit:hasCompetencyQuestion "Has caesura a given loop? o Has caesura a given progression?" ;
+ 	owlunit:hasCompetencyQuestion "Has caesura a given loop?" ;
  	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT ?caesura WHERE{ ?Loop pm:hasCaesura ?caesura. } " ;
 	owlunit:hasInputData td:TD5.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
