@@ -5,7 +5,7 @@
 @prefix pm: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> .
 
 tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
- 	owlunit:hasCompetencyQuestion "What chords are present in a given progression?" ;
+ 	owlunit:hasCompetencyQuestion "What type of progressions are present in a song?" ;
  	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT DISTINCT ?Progression WHERE { 	?Song pm:isComposedBy ?Progression.	?Progression rdfs:subClassOf } " ;
 	owlunit:hasInputData td:TD2.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
