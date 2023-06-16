@@ -1,5 +1,5 @@
 @prefix td: <https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/test/toy-dataset/> .
 @prefix pm: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> .
 
-td: Loop_01 pm:isMadeOf td:Chord_01 .
+td:Loop_01 pm:isMadeOf td:Chord_01 .
 td:Chord_01 pm:hasName "Chord01" .
