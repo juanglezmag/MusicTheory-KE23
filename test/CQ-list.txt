@@ -1,5 +1,5 @@
 1) What chords are present in a given progression?
-2) What type of progressions are present in a song?
+2) What progressions are present in a song?
 3) What is the duration of a given progression?
 4) How many notes have a given chord?
 5) Has caesura a given loop? 
