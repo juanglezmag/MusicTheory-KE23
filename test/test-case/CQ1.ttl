@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix tc: <https://raw.githubusercontent.com/jorge-arranz/Pop-Music-KE22/main/test/competency-question/test-case/> .
+@prefix td: <https://raw.githubusercontent.com/jorge-arranz/Pop-Music-KE22/main/test/competency-question/toy-dataset/> .
+@prefix pm: <https://raw.githubusercontent.com/jorge-arranz/Pop-Music-KE22/main/Ontology/popMusic.owl> .
+
+tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Who publishes a certain song?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.com/jorge-arranz/Pop-Music-KE22/main/Ontology/popMusic.owl> SELECT ?namePublisher WHERE{?Song pm:isPublishedBy ?Publisher . ?Publisher pm:hasName ?namePublisher}" ;
+	owlunit:hasInputData td:TD1.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"namePublisher\" ] } ,  \"results\": {  \"bindings\": [ {  \"namePublisher\": {  \"type\":  \"literal\" ,  \"value\": \"Sony\" } } ] } }";
+	owlunit:testsOntology pm: .
