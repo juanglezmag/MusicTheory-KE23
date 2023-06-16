@@ -6,7 +6,7 @@
 
 tc:CQ2.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "What type of progressions are present in a song?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT DISTINCT ?Progression WHERE { 	?Song pm:isComposedBy ?Progression.	?Progression rdfs:subClassOf } " ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT DISTINCT ?Progression WHERE { ?Song pm:isComposedBy ?Progression ?Progression rdfs:subClassOf .} " ;
 	owlunit:hasInputData td:TD2.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"namePublisher\" ] } ,  \"results\": {  \"bindings\": [ {  \"namePublisher\": {  \"type\":  \"literal\" ,  \"value\": \"Sony\" } } ] } }";
