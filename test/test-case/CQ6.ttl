@@ -6,7 +6,7 @@
 
 tc:CQ6.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "What are the different chords present in a loop?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT DISTINCT ?nameChord WHERE{ ?Loop pm:isMadeOf ?Chord.	?Chord rdfs:hasRoot ?nameChord } " ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT DISTINCT ?nameChord WHERE{ ?Loop pm:isMadeOf ?Chord. ?Chord pm:hasName ?nameChord } " ;
 	owlunit:hasInputData td:TD6.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"namePublisher\" ] } ,  \"results\": {  \"bindings\": [ {  \"namePublisher\": {  \"type\":  \"literal\" ,  \"value\": \"Sony\" } } ] } }";
