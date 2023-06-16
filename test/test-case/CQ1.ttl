@@ -1,6 +1,6 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
-@prefix tc: <https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/test/test-case/> .
-@prefix td: <https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/test/toy-dataset/> .
+@prefix tc: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/test/test-case/> .
+@prefix td: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/test/toy-dataset/> .
 @prefix pm: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> .
 
 tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
