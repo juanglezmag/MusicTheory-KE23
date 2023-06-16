@@ -1,4 +1,4 @@
 @prefix td: <https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/test/toy-dataset/> .
 @prefix pm: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> .
 
-td: Chord_01 pm:isMadeOf td:Note01 .
+td:Chord_01 pm:isMadeOf td:Note01 .
