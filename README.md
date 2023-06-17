@@ -5,6 +5,7 @@ For more information here you have the [report]().
 
 ### RDF graph
 We have designed an ontology where the following information has been included:
+![image](https://github.com/juanglezmag/MusicTheory-KE23/assets/136845142/05f6e79f-373a-476a-98aa-f3a6676f46d2)
 
 
 ### Ontology requirements
