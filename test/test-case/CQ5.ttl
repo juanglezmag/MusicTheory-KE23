@@ -10,5 +10,5 @@ tc:CQ5.ttl a owlunit:CompetencyQuestionVerification ;
 	owlunit:hasInputData td:TD5.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"caesura\" ] } ,  \"results\": {  \"bindings\": [ {  \"caesura\": {  \"datatype\":  \"http://www.w3.org/2001/XMLSchema#Boolean\", \"type\": \"literal\" ,  \"value\": \"true\" } } ] } }";
-owlunit:testsOntology pm: .
+	owlunit:testsOntology pm: .
 
