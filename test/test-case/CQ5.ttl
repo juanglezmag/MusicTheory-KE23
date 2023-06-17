@@ -9,6 +9,6 @@ tc:CQ5.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT ?caesura WHERE{ ?Loop pm:hasCaesura ?caesura } " ;
 	owlunit:hasInputData td:TD5.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"namePublisher\" ] } ,  \"results\": {  \"bindings\": [ {  \"namePublisher\": {  \"type\":  \"literal\" ,  \"value\": \"Sony\" } } ] } }";
-	owlunit:testsOntology pm: .
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"caesura\" ] } ,  \"results\": {  \"bindings\": [ {  \"caesura\": {  \"datatype\":  \"http://www.w3.org/2001/XMLSchema#Boolean\", \"type\": \"literal\" ,  \"value\": \"true\" } } ] } }";
+owlunit:testsOntology pm: .
 
