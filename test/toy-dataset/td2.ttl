@@ -1,5 +1,6 @@
 @prefix td: <https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/test/toy-dataset/> .
 @prefix pm: <https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> .
 
-td:Song_01 pm:isComposedBy td:Progression_01 .
-td:Progression_01 pm:hasRoot "Chord01" .
+td:Song_01 pm:isComposedBy td:Progression_01
+td:Song_01 pm:isComposedBy td:Progression_02
+td:Song_01 pm:isComposedBy td:Progression_03
