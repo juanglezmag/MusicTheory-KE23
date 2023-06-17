@@ -8,5 +8,5 @@ tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT ?nameChord WHERE{ ?Progression pm:isMadeOf ?Chord. ?Chord pm:hasName ?nameChord }" ;
 	owlunit:hasInputData td:TD1.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"namePublisher\" ] } ,  \"results\": {  \"bindings\": [ {  \"namePublisher\": {  \"type\":  \"literal\" ,  \"value\": \"Sony\" } } ] } }";
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"nameChord\" ] } ,  \"results\": {  \"bindings\": [ {  \"nameChord\": {  \"datatype\":  \"http://www.w3.org/2001/XMLSchema#String\", \"type\": \"literal\" ,  \"value\": \"Chord01\" } } ] } }";
 	owlunit:testsOntology pm: .
