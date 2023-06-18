@@ -348,6 +348,8 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Circle">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression"/>
+        <musicTheory:isMadeOf rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cdim7"/>
+        <musicTheory:isMadeOf rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cmaj9"/>
         <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</musicTheory:hasDuration>
     </owl:NamedIndividual>
     
@@ -390,6 +392,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Folia">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression"/>
+        <musicTheory:isMadeOf rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Csus2"/>
         <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</musicTheory:hasDuration>
     </owl:NamedIndividual>
     
@@ -399,6 +402,8 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Round">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression"/>
+        <musicTheory:isMadeOf rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#CMaj7"/>
+        <musicTheory:isMadeOf rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cm6"/>
         <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</musicTheory:hasDuration>
     </owl:NamedIndividual>
     
