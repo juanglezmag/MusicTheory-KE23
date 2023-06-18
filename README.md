@@ -17,6 +17,8 @@ For the test of the CQ we have used the [OWL-unit](https://github.com/luigi-aspr
 
 ### Data mapping
 
+The data mapping phase heavily relies on the data provided in the ChoCo repository. We extensively explored the dataset and attempted various CONSTRUCT SPARQL queries to the endpoint offered by the ChoCo repository. Our goal was to obtain a .ttl file (converting the JSON file into the Turtle format) that would contain the data aligned with our ontology , which is commonly used for querying with Sparql-Anything to try our Ontology.
+
 ### End-Point
 
 
