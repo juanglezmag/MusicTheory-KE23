@@ -9,6 +9,6 @@ tc:CQ4.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasSPARQLUnitTest "PREFIX pm:<https://raw.githubusercontent.comjuanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl> SELECT COUNT(*) WHERE{ ?Chord pm:isMadeOf ?Note } " ;
 	owlunit:hasInputData td:TD4.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"namePublisher\" ] } ,  \"results\": {  \"bindings\": [ {  \"namePublisher\": {  \"type\":  \"literal\" ,  \"value\": \"Sony\" } } ] } }";
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"count\" ] } ,  \"results\": {  \"bindings\": [ {  \"count\": {  \"datatype\":  \"http://www.w3.org/2001/XMLSchema#Integer\", \"type\": \"literal\" ,  \"value\": \"1\" } } ] } }";
 	owlunit:testsOntology pm: .
 
