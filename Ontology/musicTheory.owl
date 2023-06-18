@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/gonma/ontologies/2023/5/untitled-ontology-5/"
-     xml:base="http://www.semanticweb.org/gonma/ontologies/2023/5/untitled-ontology-5/"
+<rdf:RDF xmlns="http://www.semanticweb.org/KE/Ontology/MusicTheory#"
+     xml:base="http://www.semanticweb.org/KE/Ontology/MusicTheory"
      xmlns:dul="http://www.ontologydesignpatterns.org/ont/DUL/dul.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -20,14 +20,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#containsIntensity -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#containsIntensity">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Note"/>
-    </owl:ObjectProperty>
     
 
 
