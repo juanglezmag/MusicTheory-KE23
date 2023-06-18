@@ -12,7 +12,7 @@ We have designed an ontology where the following information has been included:
 ### Ontology requirements
 The competency questions used to design the ontology are in the [CQ-list](https://github.com/juanglezmag/MusicTheory-KE23/blob/main/test/CQ-list.txt).
 
-For the test of the CQ we have used the OWL-unit.
+For the test of the CQ we have used the [OWL-unit](https://github.com/luigi-asprino/owl-unit).
 
 ### Data mapping
 
