@@ -21,5 +21,11 @@ The data mapping phase heavily relies on the data provided in the ChoCo reposito
 
 ### End-Point
 
+We encountered challenges with the specified data. As a workaround, we utilized a set of
+individuals built within Protege, our ontology development tool, to generate queries against the
+endpoint. To facilitate this process, we deployed Apache Jena Fuseki, a SPARQL server and
+7
+endpoint provided by the Apache Jena framework. This powerful solution enabled us to
+publish and query RDF data efficiently using the SPARQL query language.
 
 
