@@ -1,7 +1,7 @@
 # MusicTheoryOntology-KE23
 ### Done by Juan González Magdalena and Juan Rubio Gómez
 
-For more information here you have the [report]().
+For more information here you have the [report](https://github.com/juanglezmag/MusicTheory-KE23/blob/main/Report_MusicTheoryOntology.pdf).
 
 ### RDF graph
 We have designed an ontology where the following information has been included:
