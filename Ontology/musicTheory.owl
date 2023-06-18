@@ -322,11 +322,84 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression_01 -->
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#CMaj7 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression_01">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#CMaj7">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Chord"/>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</musicTheory:hasDuration>
+        <musicTheory:hasName>CMaj7</musicTheory:hasName>
+        <musicTheory:hasType>Major 7th</musicTheory:hasType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cdim7 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cdim7">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Chord"/>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</musicTheory:hasDuration>
+        <musicTheory:hasName>Cdim7</musicTheory:hasName>
+        <musicTheory:hasType>Diminished 7th</musicTheory:hasType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Circle -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Circle">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression"/>
-        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</musicTheory:hasDuration>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</musicTheory:hasDuration>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cm6 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cm6">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Chord"/>
+        <musicTheory:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</musicTheory:hasName>
+        <musicTheory:hasName>Cm6</musicTheory:hasName>
+        <musicTheory:hasType>Minor 6th</musicTheory:hasType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cmaj9 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Cmaj9">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Chord"/>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</musicTheory:hasDuration>
+        <musicTheory:hasName>CMaj9</musicTheory:hasName>
+        <musicTheory:hasType>Major 9th</musicTheory:hasType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Csus2 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Csus2">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Chord"/>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</musicTheory:hasDuration>
+        <musicTheory:hasName>Csus2</musicTheory:hasName>
+        <musicTheory:hasType>Suspended 2nd</musicTheory:hasType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Folia -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Folia">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression"/>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</musicTheory:hasDuration>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Round -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Round">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/juanglezmag/MusicTheory-KE23/main/Ontology/musicTheory.owl#Progression"/>
+        <musicTheory:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</musicTheory:hasDuration>
     </owl:NamedIndividual>
     
 
